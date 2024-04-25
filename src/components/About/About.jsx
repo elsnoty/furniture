@@ -26,7 +26,7 @@ const About = () => {
             opacity: opacityProgress
         }}
         className={`flex px-20 py-24 medium:px-5 min-h-[533px] items-center gap-7 large:flex-col  relative
-         ${darkMode ? "bg-black text-white" : ""}`}>
+         ${darkMode ? "bg-[#222831] text-white" : ""}`}>
             <BottomContent />
             <BottomPhoto />
          </motion.div>

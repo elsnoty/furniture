@@ -5,7 +5,7 @@ const SignUp = () => {
     const { darkMode } = useDarkMode();
     return ( 
         <div className={`flex-col justify-center items-center text-center px-36 xlarge:px-24 py-24 large:px-16 medium:px-5 relative
-        ${darkMode ? "bg-black text-white" : ""}`}>
+        ${darkMode ? "bg-[#222831] text-white" : ""}`}>
             <h1 className="text-4xl font-bold mb-2">DON&apos;T FORGET TO SIGN UP</h1>
             <hr className=" w-[40%] relative left-[30%] border-[1px]"/>
             <p className="pt-7">Find out early about all upcoming promotions and new product releases with our newsletter.</p>

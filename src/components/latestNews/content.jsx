@@ -31,7 +31,7 @@ const ContentNews = () => {
       ];
     return ( 
         <div className={`flex px-36 xlarge:px-24 py-16 large:px-16 justify-between gap-8 large:flex-wrap medium:px-5 
-        ${darkMode ? 'bg-black text-white' : ''}`}>
+        ${darkMode ? 'bg-[#222831] text-white' : ''}`}>
             {
                 Data.map((data, inndex)=>(
                     <motion.div 

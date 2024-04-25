@@ -24,7 +24,7 @@ const Navitems = () => {
       }, []);
 
     return ( 
-        <nav className={`flex justify-between px-20 py-3 items-center large:px-2 medium:px-10 small:px-5 ${darkMode ? 'bg-black text-white' : ''}`}>
+        <nav className={`flex justify-between px-20 py-3 items-center large:px-2 medium:px-10 small:px-5 ${darkMode ? 'bg-[#222831] text-white' : ''}`}>
         <div className="z-30 cursor-pointer"> 
         <img src={logo} alt=""/>
         </div>

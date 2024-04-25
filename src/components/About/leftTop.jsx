@@ -21,7 +21,7 @@ const LeftPhoto = () => {
             opacity: opacityProgress
         }}
         className={`flex px-20 py-24 medium:px-5 min-h-[533px] items-center gap-7 large:flex-col  relative
-        ${darkMode ? "bg-black text-white" : ""}`}>
+        ${darkMode ? "bg-[#222831] text-white" : ""}`}>
             <div className="relative w-2/4 large:w-full"><img src={about} alt="" /></div>
         <div className="w-1/2 large:w-full">
             <h3 className="font-[sans-serif] text-gray-600 font-bold">ABOUT US</h3>

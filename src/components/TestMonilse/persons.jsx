@@ -20,7 +20,7 @@ const CardPerson = () => {
       
     return ( 
         <div className={`flex px-36 xlarge:px-24 py-10 large:px-16 justify-between gap-8 large:block medium:px-10 
-        ${darkMode ? 'bg-black text-white' : ''}`}>
+        ${darkMode ? 'bg-[#222831] text-white' : ''}`}>
       {Data.map((ceo, index) => (
         <div key={index} className={`flex shadow-div round py-10 max-h-[260px] max-w-[580px] p-3 relative large:min-w-full large:mb-5 small:mt-32
         ${darkMode ? 'bg-gradient-to-r from-fuchsia-900 to-fuchsia-700 text-white' : ''}`}>

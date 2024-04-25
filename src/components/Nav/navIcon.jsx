@@ -111,7 +111,7 @@ const NavIcon = () => {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: showMenu ? 1 : 0, x: showMenu ? 0 : -20 }}
                     transition={{ duration: 0.5 }}
-                    className={`absolute top-16 right-0 px-5 py-3 min-w-[60vw] rounded-lg z-30 ${darkMode ? "bg-gradient-to-tl from-gray-900 to-gray-800 text-white": "bg-green-900"} ${showMenu ? 'block' : 'hidden'}`}
+                    className={`absolute top-16 right-0 px-5 py-3 min-w-[60vw] rounded-lg z-30 ${darkMode ? "bg-gradient-to-tl from-gray-900 to-gray-800 text-white": "bg-gradient-to-tl from-gray-900 to-green-800"} ${showMenu ? 'block' : 'hidden'}`}
                     ref={menuRef}
                 >
                     <NavLinks/>

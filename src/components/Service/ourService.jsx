@@ -30,7 +30,7 @@ const Service = () => {
 
     return (
         <>
-        <div className={`px-20 py-24 large:px-5 relative ${darkMode ? 'bg-black text-white' : ''}`}>
+        <div className={`px-20 py-24 large:px-5 relative ${darkMode ? 'bg-[#222831] text-white' : ''}`}>
             <div className='flex justify-between items-center'>
                 <div>
                     <h3 className="font-[sans-serif] text-gray-600 font-bold">WHAT WE DO</h3>

@@ -5,7 +5,7 @@ const StatsCard = () => {
   return (
     <>
     <div className={`px-20 py-24 medium:px-5 grid place-items-center text-center 
-    ${darkMode ? "bg-black text-white" : "bg-gray-100"}`}>
+    ${darkMode ? "bg-[#222831] text-white" : "bg-gray-100"}`}>
 
       <h1 className="text-4xl title-font "><span className="block">3000+</span> Completed Work</h1>
       <h1 className="text-4xl title-font ">Which WE have Successfully Done</h1>
